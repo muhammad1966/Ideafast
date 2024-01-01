@@ -1,0 +1,149 @@
+.app-navbar{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background: var(--bg-cont);
+    position: sticky;
+    top: 2px;
+    border-radius: 0 0 5px 5px;
+    z-index: 100;
+}
+
+.app-navbar_logo{
+    padding: 1rem 1rem;
+    flex: 0.5;
+    display: flex;
+    
+}
+
+.app-navbar_logo h1{
+    font-family: logo;
+    margin: 0;
+    text-transform: capitalize;
+    color: var(--text-color);
+    font-size: 45px;
+}
+
+.app-navbar_links{
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 2rem;
+}
+
+.app-navbar_links a,
+.app-navbar_menum a
+{
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: 20px;
+    line-height: 30px;
+    font-family: font;
+}
+
+.app-navbar_signd{
+    display: flex;
+    flex: 0.5;
+    justify-content:flex-end;
+    padding-right: 2rem;
+    align-items: center;
+}
+
+.app-navbar_signd p{
+    margin: 0 1rem 0 0;
+    color: #fff;
+    font-size: 17px;
+    cursor: pointer;
+    font-family: font;
+}
+
+.app-navbar_signd button,
+.app-navbar_menum-sing button
+{
+    padding: 0.5rem 1rem;
+    font-family: font;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    background: var(--button-color);
+    color: #fff;
+    cursor: pointer;
+}
+
+.app-navbar_menum{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 7.5rem;
+    right: 2rem;
+    padding: 2rem 2.5rem;
+    background: var(--footer-color);
+    align-items: center;
+    justify-content: flex-end;
+    border-radius: 5px;
+    
+}
+
+.app-navbar_menum-sing{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.app-navbar_menum-sing p{
+    color: #fff;
+    font-family: font;
+    font-size: 17px;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+
+.app-navbar_signm{
+    display: none;
+}
+
+@media screen and (max-width:1050px){
+    
+    .app-navbar_signm{
+        display: flex;
+        margin: 0 1.5rem 0 0;
+    }
+
+    .app-navbar_menum-sing{
+        display: none;
+    }
+    .app-navbar_links{
+        display: none;
+    }
+}
+
+@media screen and (max-width:700px){
+    .app-navbar_signd{
+        display: none;
+    }
+
+    .app-navbar_menum{
+        top: 5rem;
+        right: 1.5rem;
+    }
+
+    .app-navbar_logo{
+       /* margin: 0 15rem 0 0;*/
+       flex: 3;
+    }
+
+    .app-navbar_logo h1{
+        font-size: 20px;
+    }
+
+    .app-navbar_menum-sing{
+        display: flex;
+    }
+    
+}
+
+@media screen and (max-width:550px){
+    
+}

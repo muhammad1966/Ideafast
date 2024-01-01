@@ -1,0 +1,25 @@
+.app-description{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background: var(--footer-color);
+}
+
+.app-description_content{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 2rem;
+}
+
+.app-description_content h1{
+    margin: 0 0 1rem 0;
+    font-family: font;
+    color: var(--text-color);
+    
+}
+
+.app-description_content p{
+    font-family: font;
+    font-size: 20px;
+    line-height: 30px;
+}

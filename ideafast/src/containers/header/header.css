@@ -1,0 +1,134 @@
+.app-header{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background: black;
+}
+
+.app-header_content{
+    display: flex;
+    flex-direction: column;
+    padding: 0 3rem;
+    flex: 1;
+    
+}
+
+.app-header_content h1{
+    font-family: font;
+    font-weight: 800px;
+    font-size: 60px;
+    line-height: 80px;
+}
+
+.app-header_content p{
+    color: var(--text-color);
+    margin-top: 2rem;
+    font-family: font;
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.app-header_content h4{
+    color:#a29d9d;
+    font-family: font;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 2rem;
+}
+
+.app-header_bulb{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.app-header_bulb img{
+    width: 65%;
+    height: 100%;
+}
+
+
+
+@media screen and (max-width:1000px){
+    .app-header{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:500px){
+    .app-header_content h1{
+        font-size: 50px;
+        line-height: 70px;
+        animation: anim 5s;
+        animation-fill-mode: forwards;
+    }
+
+    @keyframes anim {
+        0%{
+            opacity: 0;
+        }
+        100%{
+            opacity: 1;
+        }
+    }
+
+    .app-header_content p{
+        animation: anim2 8s;
+        animation-fill-mode: forwards;
+    }
+
+    @keyframes anim2 {
+        0%{
+            opacity: 0;
+        }
+        100%{
+            opacity: 1;
+        }
+        
+    }
+
+    .app-header_content p,
+    .app-header_content h4{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:280px){
+    .app-header_content h1{
+        font-size: 30px;
+        line-height: 40px;
+        animation: anim 5s;
+        animation-fill-mode: forwards;
+    }
+
+    @keyframes anim {
+        0%{
+            opacity: 0;
+        }
+        100%{
+            opacity: 1;
+        }
+    }
+
+    .app-header_content p{
+        animation: anim2 8s;
+        animation-fill-mode: forwards;
+    }
+
+    @keyframes anim2 {
+        0%{
+            opacity: 0;
+        }
+        100%{
+            opacity: 1;
+        }
+        
+    }
+
+    .app-header_content p,
+    .app-header_content h4{
+        text-align: center;
+    }
+}

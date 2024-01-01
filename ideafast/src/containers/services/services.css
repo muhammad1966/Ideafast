@@ -1,0 +1,98 @@
+.app-services{
+    margin: 3rem 4rem 3rem 4rem;
+    padding: 3rem 3rem;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.app-services_exparts,
+.app-services_colarborate,
+.app-services_help{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.app-services_exparts div,
+.app-services_colarborate div,
+.app-services_help div{
+    display: flex;
+    font-family: font;
+    margin: 1rem 1rem;
+    flex-direction: column;
+    max-width: 400px;
+    max-height: 500px;
+    align-items: center;
+    justify-content: center;
+    background: var(--footer-color);
+}
+
+.app-services_exparts img,
+.app-services_colarborate img,
+.app-services_help img{
+    width: 100%;
+    height: 50%;
+    display: flex;
+}
+
+.app-services_exparts h3,
+.app-services_colarborate h3,
+.app-services_help h3{
+    color: var(--text-color);
+    margin-top: 10px;
+    text-align: center;
+}
+
+.app-services_exparts p,
+.app-services_colarborate p,
+.app-services_help p{
+    margin: 1rem 2rem;
+    text-align: center;
+    color: #fff;
+    font-family: font;
+}
+
+@media screen and (max-width:850px){
+    .app-services{
+        flex-direction: column;
+        padding: 3rem 1rem;
+    }
+
+    
+    
+}
+
+@media screen and (max-width:600px){
+
+    .app-services{
+        margin: 2rem 2rem;
+    }
+
+    .app-services_exparts p,
+    .app-services_colarborate p,
+    .app-services_help p{
+        text-align: center;
+        
+    }
+
+    .app-services_exparts img,
+    .app-services_colarborate img,
+    .app-services_help img{
+        height: 80%;
+    }
+}
+
+@media screen and (max-width:400px){
+    .app-services{
+        margin: 2rem 1rem;
+    }
+}
+
+
+
+
+

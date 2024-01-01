@@ -1,0 +1,19 @@
+@font-face {
+    font-family: logo;
+    src: url('./assets/Indie_Flower/IndieFlower-Regular.ttf');
+}
+
+@font-face {
+    font-family: font;
+    src: url('./assets/Manrope/Manrope-VariableFont_wght.ttf');
+}
+:root{
+    --bg-color: #4F535C;
+    --footer-color: #2D313A;
+    --bg-cont:black;
+    --gradient-text: linear-gradient(89.97deg, #4F535C 1.84%, #C2843A 102.67% );
+    --text-color: #C2843A;
+    --button-color: red;
+    --h3-color: #826a4d;
+    
+}                 
