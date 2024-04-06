@@ -9,7 +9,7 @@ const Services = () => {
       <div className='app-services_exparts'>
         <div>
           <img src={expart} alt="expart" />
-          <h3>Meet Thousands of Exparts</h3>
+          <h3>Meet Thousands of Experts</h3>
           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam, eveniet suscipit! Blanditiis error enim amet! Veniam magni quas impedit nisi.</p>
         </div>
       </div>
